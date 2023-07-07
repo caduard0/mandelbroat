@@ -1,3 +1,0 @@
-/home/caduard0/Dev/mandelbroat-glfw/build/CMakeFiles/main.dir
-/home/caduard0/Dev/mandelbroat-glfw/build/CMakeFiles/edit_cache.dir
-/home/caduard0/Dev/mandelbroat-glfw/build/CMakeFiles/rebuild_cache.dir
