@@ -32,5 +32,5 @@
 *.app
 
 # Personal
-.vscode
-build
+/.vscode
+/build
