@@ -23,5 +23,5 @@ target_link_libraries(main PRIVATE glfw3) # GLFW
 
 add_custom_command(
     TARGET main POST_BUILD 
-    COMMAND  rm -r ${CMAKE_CURRENT_BINARY_DIR}/res && cp -r ${CMAKE_CURRENT_SOURCE_DIR}/res ${CMAKE_CURRENT_BINARY_DIR}
+    COMMAND  cp -r -T ${CMAKE_CURRENT_SOURCE_DIR}/res ${CMAKE_CURRENT_BINARY_DIR}/res
     VERBATIM)
